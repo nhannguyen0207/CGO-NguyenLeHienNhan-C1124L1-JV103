@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khảo sát khách hàng</title>
+    <style>
+        table{border-collapse: collapse}
+        td,th{border: 1px solid;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+<form action="#" method="post"></form>
+    <h1><strong>Market Research Survey</strong></strong></h1>
+    <p>Please take a few moment to complete this satisfaction survey</p>
+<span><strong>What is your age range?</strong></span><br>
+    <select id="age" name="age" >
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="34-50">35-50</option>
+        <option value="50+">50+</option>
+    </select><br>
+<span><strong>What is your yearly income?</strong></span><br>
+    <select id="income" name="income">
+        <option value="$0-$25000">$0-$25000</option>
+        <option value="$25001-$50000">$25001-$50000</option>
+        <option value="$50001-$100000">$50001-$100000</option>
+        <option value="$100000+">$100000+</option>
+    </select><br>
+<span><strong>Gender</strong></span><br>
+    <input type="radio" id="male" name="male"><span>Male</span><br>
+    <input type="radio" id="female" name="female"><span>Female</span><br>
+    <input type="radio" id="nonbinary" name="nonbinary"><span>Nonbinary</span><br>
+    <input type="radio" id="other" name="other"><span>Other</span><br>
+    <input type="text" id="choice" name="choice"><br>
+<span><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong></span><br>
+    <input type="checkbox" id="product1" name="product 1"><span>Product 1</span><br>
+    <input type="checkbox" id="product2" name="product 2"><span>Product 2</span><br>
+    <input type="checkbox" id="product3" name="product 3"><span>Product 3</span><br>
+<span><strong>How often would you use our new product?</strong></span><br>
+    <input type="radio" id="choice1" name="choice1"><span>Daily</span><br>
+    <input type="radio" id="choice2" name="choice2"><span>Weekely</span><br>
+    <input type="radio" id="choice3" name="choice3"><span>Monthly</span><br>
+<span><strong>What would you pay for new product?</strong></span><br>
+    <input type="text" id="cost1" name="cost1"><span style="font-size: 150%;margin-left: 5px">.</span>
+    <input type="text" id="cost2" name="cost2"><br>
+<span><strong>What features would you like to see in new product?</strong></span><br>
+    <textarea id="opinion" name="opinion" cols="60" rows="4"></textarea><br>
+<span>Please rate your level of agreement with the following statements.</span>
+<table>
+    <tr>
+        <th>            </th>
+        <th>Strongly disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly agree</th>
+    </tr>
+    <tr>
+        <td><strong>Our products are priced fairly.</strong></td>
+        <td><input style="margin-left: 50px" type="radio" id="feeling1" name="feeling1"></td>
+        <td><input style="margin-left: 23px" type="radio" id="feeling2" name="feeling2"></td>
+        <td><input style="margin-left: 14px" type="radio" id="feeling3" name="feeling3"></td>
+        <td><input style="margin-left: 45px" type="radio" id="feeling4" name="feeling4"></td>
+    </tr>
+    <tr>
+        <td><strong>Our products are high quality.</strong></td>
+        <td><input style="margin-left: 50px" type="radio" id="feeling5" name="feeling5"></td>
+        <td><input style="margin-left: 23px" type="radio" id="feeling6" name="feeling6"></td>
+        <td><input style="margin-left: 14px" type="radio" id="feeling7" name="feeling7"></td>
+        <td><input style="margin-left: 50px" type="radio" id="feeling8" name="feeling8"></td>
+    </tr>
+    <tr>
+        <td><strong>You would recommend our product to a friend or coworker.</strong></td>
+        <td><input style="margin-left: 50px" type="radio" id="feeling9" name="feeling9"></td>
+        <td><input style="margin-left: 23px" type="radio" id="feeling10" name="feeling10"></td>
+        <td><input style="margin-left: 14px" type="radio" id="feeling11" name="feeling11"></td>
+        <td><input style="margin-left: 50px" type="radio" id="feeling12" name="feeling12"></td>
+    </tr>
+</table>
+<button style="font-size: 120%">Submit</button>
+</form>
+</body>
+</html>
